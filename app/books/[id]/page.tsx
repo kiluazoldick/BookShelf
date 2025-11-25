@@ -152,7 +152,7 @@ export default function BookPage() {
               <div className="bg-gray-50 p-6 rounded-lg border border-gray-200">
                 <p className="text-gray-600 text-sm mb-1">Prix</p>
                 <p className="text-3xl font-bold text-gray-900">
-                  {book.price.toFixed(2)}€
+                  {book.price.toFixed(2)}XAF
                 </p>
               </div>
 

@@ -1,7 +1,7 @@
 export const EBOOK_CATEGORIES = [
   "Romance",
   "Science-Fiction",
-  "Développement",
+  "Développement Personnel",
   "Essai",
   "Jeunesse",
   "Suspense",
@@ -12,14 +12,15 @@ export const EBOOK_CATEGORIES = [
 export const SAMPLE_EBOOKS = [
   {
     id: "1",
-    title: "Les Chemins de l'Amour",
-    author: "Marie Dupont",
-    category: "Romance",
-    price: 9.99,
-    coverUrl: "/placeholder.svg?height=300&width=200",
+    title: "MIRACLE MORNING",
+    author: "HAL ELROD",
+    category: "Développement Personnel",
+    price: 1500,
+    coverUrl: "/Miracle_Morning.png",
     description:
-      "Une histoire captivante d'amour et de découverte qui vous transportera dans un voyage émotionnel inoubliable.",
-    paymentLink: "https://payment.example.com/book/1",
+      "Quel que soit le stade où vous vous trouvez dans votre vie Que vous soyez au sommet de votre art ou face à des difficultés, en ayant du mal à trouver votre voie, je suis persuadé que nous avons une chose en commun (et même probablement bien plus, mais je suis sûr de celle-ci) : nous souhaitons avoir une vie meilleure et nous améliorer.",
+    paymentLink:
+      "https://pay.lygosapp.com/link/0c838daa-78c3-4649-bfab-f509fc87eb69",
   },
   {
     id: "2",
@@ -34,14 +35,15 @@ export const SAMPLE_EBOOKS = [
   },
   {
     id: "3",
-    title: "Code: Les Secrets du Web Moderne",
-    author: "Thomas React",
-    category: "Développement",
-    price: 24.99,
-    coverUrl: "/placeholder.svg?height=300&width=200",
+    title: "ATTEINDRE L’EXCELLENCE",
+    author: "ROBERT	GREENE",
+    category: "Développement Personnel",
+    price: 2500,
+    coverUrl: "/atteindre.jpg",
     description:
       "Maîtrisez les fondamentaux du développement moderne avec des projets pratiques et concrets.",
-    paymentLink: "https://payment.example.com/book/3",
+    paymentLink:
+      "https://pay.lygosapp.com/link/5de67adb-becb-4885-a573-d6f458219e04",
   },
   {
     id: "4",
@@ -56,14 +58,15 @@ export const SAMPLE_EBOOKS = [
   },
   {
     id: "5",
-    title: "Contes Magiques de la Forêt Enchantée",
-    author: "Sophie Leclerc",
+    title: "AIMEZ VOTRE SEXUALITÉ",
+    author: "ALLAN TREVOR",
     category: "Jeunesse",
-    price: 8.99,
-    coverUrl: "/placeholder.svg?height=300&width=200",
+    price: 1800,
+    coverUrl: "/aimer.jpg",
     description:
-      "Des histoires merveilleuses peuplées de créatures fantastiques pour émerveiller tous les âges.",
-    paymentLink: "https://payment.example.com/book/5",
+      "Intelligence Sexuelle Et Intelligence Émotionnelle Pour Profiter De Votre Sexualité",
+    paymentLink:
+      "https://pay.lygosapp.com/link/f7465b20-8408-47af-bb85-a20045f54266",
   },
   {
     id: "6",

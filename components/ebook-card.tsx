@@ -41,7 +41,7 @@ export default function EbookCard({ product }: Readonly<EbookCardProps>) {
             </h3>
           </Link>
           <span className="text-sm font-medium text-gray-900 bg-gray-100 px-2 py-1 rounded">
-            {product.price.toFixed(2)}€
+            {product.price.toFixed(2)}XAF
           </span>
         </div>
 
