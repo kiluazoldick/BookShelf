@@ -85,6 +85,20 @@ bookshelf/
 
 ```
 
+### Configuration des paiements
+
+1. Créez un compte marchand Lygos
+2. Récupérez votre Merchant ID et Secret Key
+3. Configurez les webhooks pour les confirmations
+4. Remplacez les liens de paiement dans `data.ts`
+
+### Flux d'achat
+
+1. Utilisateur sélectionne un livre
+2. Clic sur "Acheter maintenant" → Redirection Lygos
+3. Paiement sécurisé sur Lygos
+4. Retour sur BookShelf avec confirmation
+5. Lien de téléchargement affiché
 
 ## 📊 Performance
 
