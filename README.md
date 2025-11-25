@@ -52,97 +52,39 @@ BookShelf est une plateforme e-commerce moderne et minimaliste dédiée à la ve
 - Node.js 18+
 - npm ou yarn
 
-### Installation
-
-```bash
-# Cloner le repository
-git clone [votre-repo]
-cd bookshelf
-
-# Installer les dépendances
-npm install
-
-# Lancer en développement
-npm run dev
-```
-
-### Build production
-
-```bash
-# Build le projet
-npm run build
-
-# Lancer en production
-npm start
 ```
 
 ## 📁 Structure du projet
 
 ```
+
 bookshelf/
-├── app/                    # Pages Next.js 14 (App Router)
-│   ├── about/             # Page À propos
-│   ├── blog/              # Blog avec articles
-│   ├── books/             # Pages détaillées livres
-│   ├── categories/        # Catalogue complet
-│   ├── contact/           # Formulaire de contact
-│   ├── faq/               # Questions fréquentes
-│   ├── help/              # Centre d'aide
-│   ├── legal/             # Mentions légales
-│   ├── privacy/           # Politique confidentialité
-│   └── page.tsx           # Page d'accueil
-├── components/            # Composants React réutilisables
-│   ├── ui/                # Composants d'interface
-│   ├── header.tsx         # Navigation principale
-│   ├── footer.tsx         # Pied de page
-│   ├── hero.tsx           # Section hero accueil
-│   ├── ebook-card.tsx     # Carte produit livre
-│   ├── product-grid.tsx   # Grille de produits
-│   └── category-filter.tsx # Filtres par catégories
-├── lib/                   # Utilitaires et données
-│   ├── data.ts            # Données des livres et catégories
-│   └── utils.ts           # Fonctions utilitaires
-└── public/                # Assets statiques
+├── app/ # Pages Next.js 14 (App Router)
+│ ├── about/ # Page À propos
+│ ├── blog/ # Blog avec articles
+│ ├── books/ # Pages détaillées livres
+│ ├── categories/ # Catalogue complet
+│ ├── contact/ # Formulaire de contact
+│ ├── faq/ # Questions fréquentes
+│ ├── help/ # Centre d'aide
+│ ├── legal/ # Mentions légales
+│ ├── privacy/ # Politique confidentialité
+│ └── page.tsx # Page d'accueil
+├── components/ # Composants React réutilisables
+│ ├── ui/ # Composants d'interface
+│ ├── header.tsx # Navigation principale
+│ ├── footer.tsx # Pied de page
+│ ├── hero.tsx # Section hero accueil
+│ ├── ebook-card.tsx # Carte produit livre
+│ ├── product-grid.tsx # Grille de produits
+│ └── category-filter.tsx # Filtres par catégories
+├── lib/ # Utilitaires et données
+│ ├── data.ts # Données des livres et catégories
+│ └── utils.ts # Fonctions utilitaires
+└── public/ # Assets statiques
+
 ```
 
-## 🔧 Configuration
-
-### Variables d'environnement
-
-Créez un fichier `.env.local` :
-
-```env
-# Configuration Next.js
-NEXT_PUBLIC_SITE_URL=https://votre-domaine.com
-
-# Intégration Lygos (à configurer)
-NEXT_PUBLIC_LYGOS_MERCHANT_ID=votre_merchant_id
-NEXT_PUBLIC_LYGOS_SECRET_KEY=votre_secret_key
-```
-
-### Personnalisation
-
-- **Couleurs** : Modifiez la palette dans `tailwind.config.js`
-- **Contenu** : Éditez `lib/data.ts` pour les livres et catégories
-- **Textes** : Modifiez directement dans les composants
-- **Liens paiement** : Remplacez les liens Lygos dans `data.ts`
-
-## 💳 Intégration Lygos
-
-### Configuration des paiements
-
-1. Créez un compte marchand Lygos
-2. Récupérez votre Merchant ID et Secret Key
-3. Configurez les webhooks pour les confirmations
-4. Remplacez les liens de paiement dans `data.ts`
-
-### Flux d'achat
-
-1. Utilisateur sélectionne un livre
-2. Clic sur "Acheter maintenant" → Redirection Lygos
-3. Paiement sécurisé sur Lygos
-4. Retour sur BookShelf avec confirmation
-5. Lien de téléchargement affiché
 
 ## 📊 Performance
 
@@ -205,3 +147,4 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 **BookShelf** - _Votre bibliothèque numérique, simplifiée._ 📖✨
 
 Développé avec ❤️ au Cameroun cm
+```
