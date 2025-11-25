@@ -50,7 +50,3 @@ BookShelf est une plateforme e-commerce moderne et minimaliste dédiée à la ve
 **BookShelf** - _Votre bibliothèque numérique, simplifiée._ 📖✨
 
 Développé avec ❤️ au Cameroun cm
-
-```
-
-```
